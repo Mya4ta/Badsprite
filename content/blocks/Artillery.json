@@ -1,0 +1,30 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "plastanium Artillery",
+	"description": "[white]good [green]plastanium[white] Artillery",
+	"health": 2400,
+	"size": 3,
+	"reload": 600,
+	"range": 600,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 1,
+	"rotatespeed": 1,
+	"targetAir":false,
+	"ammo": {
+		"plastanium": {
+			"speed": 5.0,
+			"damage": 400,
+			"bulletWidth": 20,
+			"bulletHeight": 30,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1
+		},
+	},
+	"requirements": [
+		{ "item": "plastanium", "amount": 170 },
+		{ "item": "silicon", "amount": 380 },
+		{ "item": "lead", "amount": 450 }
+	],
+	"category": "turret",
+}
