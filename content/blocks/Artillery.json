@@ -24,7 +24,8 @@
 	"requirements": [
 		{ "item": "plastanium", "amount": 170 },
 		{ "item": "silicon", "amount": 380 },
-		{ "item": "lead", "amount": 450 }
+		{ "item": "lead", "amount": 450 },
+		{ "item": "weapon_material", "amount": 30 },
 	],
 	"category": "turret",
 }

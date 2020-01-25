@@ -56,7 +56,8 @@
 	"requirements": [
 		{ "item": "surge-alloy", "amount": 50 },
 		{ "item": "silicon", "amount": 150 },
-		{ "item": "lead", "amount": 250 }
+		{ "item": "lead", "amount": 250 },
+		{ "item": "weapon_material", "amount": 30 },
 	],
 	"category": "turret",
 	"research": "cyclone"

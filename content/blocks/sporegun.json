@@ -33,7 +33,8 @@
 		{ "item": "plastanium", "amount": 50 },
 		{ "item": "lead", "amount": 100 },
 		{ "item": "titanium", "amount": 75 },
-		{ "item": "copper", "amount": 120 }
+		{ "item": "copper", "amount": 120 },
+		{ "item": "weapon_material", "amount": 30 },
 	],
 	"category": "turret",
 	"research": "cyclone"
