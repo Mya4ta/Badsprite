@@ -1,0 +1,38 @@
+{
+	"type": "burstTurret",
+	"name": "Kinetic gun",
+	"description": "Kinetic gun use silicon ._.",
+	"targetAir": false,
+	"targetGround": true,
+	"size": 3,
+	"reload": 5,
+	"shootCone": 10,
+	"rotateSpeed": 8,
+	"inaccuracy": 5,
+	"range": 200,
+	"burstSpacing": 4,
+	"shootSound": "bigshot",
+	"ammo": {
+		"silicon": {
+			"speed": 8,
+			"damage": 50,
+			"bulletWidth": 7,
+			"bulletHeight": 11,
+			"splashDamage": 25,
+			"splashDamageRadius": 40,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"knockback": 0.25,
+			"ammoMultiplier": 6
+		}
+	},
+	"requirements": [
+		{ "item": "plastanium", "amount": 50 },
+		{ "item": "lead", "amount": 100 },
+		{ "item": "titanium", "amount": 75 },
+		{ "item": "surge-alloy", "amount": 70 },
+		{ "item": "weapon_material", "amount": 30 },
+	],
+	"category": "turret",
+	"research": "cyclone"
+}
